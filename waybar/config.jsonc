@@ -1,0 +1,27 @@
+[
+	{
+		"name": "sidebar",
+		"layer": "top",
+		"position": "left",
+		"modules-left": ["clock"],
+		"modules-center": ["hyprland/workspaces"],
+		"modules-right": ["custom/menu"],
+		"hyprland/workspaces": {
+			"disable-scroll": true,
+			"all-outputs": true,
+			"on-click": "activate",
+			"format": "{icon}",
+			"format-icons": {
+				"active": "†",
+				"default": "·"
+			},
+			"sort-by-number": true 
+		},
+		"clock": {
+    			"format": "{:%H\n%M}",
+    		},
+		"custom/menu": {
+			
+		}
+	}
+]
